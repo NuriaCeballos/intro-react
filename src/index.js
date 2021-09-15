@@ -1,17 +1,13 @@
-import React from 'react';
+import React from 'react';//sin importarlo no me da error
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+// import PrimeraApp from './PrimeraApp';
+import CounterApp from './CounterApp';
+import './index.css'
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+
+const divRoot = document.querySelector('#app');
+
+ReactDOM.render(<CounterApp value= {131970} />,divRoot)//1º agumento lo que quiero poner,//
+// 2º arumento donde lo quiero poner
