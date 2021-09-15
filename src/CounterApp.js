@@ -1,13 +1,13 @@
 import React from 'react';
-import propTypes from 'props-types'
+import PropTypes from 'prop-types';
 
 
-const CounterApp =()=>{
+const CounterApp =({value})=>{
 
     return(
         <>
-            <h1>lkjf</h1>
-            <h2>sdljfal</h2>
+            <h1>CounterApp</h1>
+            <h2>{value}</h2>
 
         </>
 
@@ -15,6 +15,7 @@ const CounterApp =()=>{
 
 }
 CounterApp.propTypes={
+    value:PropTypes.number.isRequired
 
 }
 
