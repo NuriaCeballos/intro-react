@@ -9,5 +9,5 @@ import './index.css'
 
 const divRoot = document.querySelector('#app');
 
-ReactDOM.render(<CounterApp value= {271966} />,divRoot)//1º agumento lo que quiero poner,//
+ReactDOM.render(<CounterApp value= {20} />,divRoot)//1º agumento lo que quiero poner,//
 // 2º arumento donde lo quiero poner
