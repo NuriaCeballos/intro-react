@@ -44,7 +44,4 @@ test ( 'debe de retornar un array con la cantidad de heroes de marvel', ()=>{
 })
 
 
-
-
-
 })

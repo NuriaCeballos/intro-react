@@ -21,7 +21,7 @@ describe('Pruebas de funciones', () => {
             uid: 'ABC567',
             username: nombre
         }
-        console.log(userActivo);
+       
         
         const user = getUsuarioActivo(nombre);
         expect (user).toEqual(userActivo);
